@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+font-footer {
+	color: #FFFFFF;
+	font-family: 'Mitr', sans-serif;
+	font-size: 15px;
+}
+
+#FooterSetting {
+	background-color: #121212;
+	border-top: 2px solid #FF0000;
+}
+
+.PayWay {
+	height: 70px;
+}

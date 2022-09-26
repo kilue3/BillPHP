@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+font-nav { /*------ ฟร้อนและขนาดฟร้อน ------*/
+	
+	font-family: 'Mitr', sans-serif;
+	font-size: 20px;
+}
+
+menu-font-size { /*------ ขนาดฟร้อนของเมนูย่อย ------*/
+	font-size: 27px;
+}
+
+#NavBar1Setting {
+	background-color: #FFFFFF;
+	padding-bottom: 0;
+}
+
+#NavBar2Setting {
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #FF0000;
+}
+
+/*------ ช่องค้นหา ------*/
+.Search-Bar-Settings {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 0px;
+}
+
+.Search-Image-Settings {
+	padding-left: 5px;
+}

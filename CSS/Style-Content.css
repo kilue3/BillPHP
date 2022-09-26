@@ -1,0 +1,299 @@
+﻿/* CSS Document */
+body{
+	background-color:#18508D;
+	color: #000000;
+	font-family: 'Mitr', sans-serif;
+	font-size: 15px;
+}
+
+A:link {
+text-decoration:none;
+}
+A:visited {
+text-decoration:none;
+}
+
+.card { /*---- คุณสมบัติของบล็อคเกม ----*/
+	border: 0;
+}
+
+.LineBetween {
+	border-bottom: 1px solid #3e3e3e;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.Admin-LineBetween {
+	border-bottom: 1px solid #979393;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.DetailColor {
+	color: #979393;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.Button-icon{
+	width: 25px;
+	height: auto;
+}
+/*------------------ เนื้อหา -----------------*/
+.SpaceStyle { /*---- ช่องว่างระหว่างกล่อง ----*/
+	margin-bottom: 10px;
+}
+
+.ZeroMarginPadding {
+	margin: 0;
+	padding: 0;
+}
+
+.ColContentSetting {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.CardBGSetting { /*---- พื้นหลัง ----*/
+	background: #ffffff;
+	color: #000000;
+	margin-bottom: 10px;
+	border: 0px;
+	border-radius: 10px;
+}
+
+.CardBodyBGGameBox {
+	padding-bottom: 6px;
+}
+
+.Admin-CardBGSetting { /*---- พื้นหลัง ----*/
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.CardBackground-1 {
+	background: #ffffff;
+	color: #000000;
+	margin-bottom: 10px;
+	border: 0px;
+	border-radius: 10px;
+  }
+
+
+.Admin-CardBodyBGSetting {
+	color: #000000;
+}
+
+.CardBodyBGSetting { /*---- พื้นหลังด้านใน ----*/
+/*
+	padding: 10px;
+	padding-bottom: 0px;
+*/
+}
+
+.GameBoxCard {
+
+}
+
+.GameBoxRow {
+	background: #1D1D1D;
+}
+
+.GameBoxRow:hover {
+	background: #343434;
+}
+
+.GameBoxCol {
+	height: 120px;
+}
+
+.CardContentBGSetting { /*---- พื้นหลังของกล่องเนื้อหา ----*/
+	background-color: #ffffff;
+	padding: 9px;
+	margin-bottom: 10px;
+}
+
+.CardBodyContentBGSetting { /*---- พื้นหลังของกล่องเนื้อหาด้านใน ----*/
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+}
+
+.Admin-breadcrumb {
+	background: #FFFFFF;
+}
+/*------------------ เนื้อหาทางซ้าย -----------------*/
+.ClockStyle {
+	text-align: center;
+	padding-top: 9px;
+	padding-bottom: 0px;
+}
+
+/*------------------ เส้นคั่น -----------------*/
+.Line-Divider {
+	border-bottom: 1px solid #DCDCDC;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/*------------------ เนื้อหาทางขวา -----------------*/
+.TotalPriceStyle {
+	color: red;
+}
+
+/*------------------ เนื้อหาเกมในบล็อคการซื้อ -----------------*/
+.BoxContentStyle {
+	background-color: #282828;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.GamePriceStyle {
+	text-align: right;
+}
+
+.BoxStyle {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.Profile-BoxStyle {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.Admin-BoxStyle {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+/*------------------ การแจ้งเตือน -----------------*/
+.AlertSetting {
+	margin-top: 5px;
+  	margin-bottom: 5px;
+  	margin-left: 8px;
+  	margin-right: 8px;
+}
+
+/*------------------ ย่อขยายอัตโนมัติ -----------------*/
+.GameBoxImgResponsive {
+  width: 100%;
+  height: 100%;
+}
+
+.ImgResponsive {
+  width: 100%;
+  height: auto;
+}
+
+.YoutubeResponsive {
+	position: relative;
+  	width: 100%;
+  	padding-bottom: 56.25%; 
+  	height: 0;
+	margin-bottom: 10px;
+}
+
+.YoutubeResponsive iframe {
+	position: absolute;
+  	top:0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+/*------------------ ปุ่มเลื่อนไปบนสุด -----------------*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+/*------------------ Slide -----------------*/
+.carousel-control-prev:hover {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-control-next:hover {
+	background: rgba(0, 0, 0, 0.4);
+}
+.buttonMenu {
+	background: #FFFFFF;
+	color: #000000;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+  padding-right: 10px;
+  margin-bottom: 2px;
+  transition: 0.2s;
+  }
+  .buttonMenu:hover {
+	background: #f0f2f5;
+	color: #000000;
+  }
+  .buttonMenu-Current {
+	background: rgba(13, 110, 253, 0.12);
+	color: #000000;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+  padding-right: 10px;
+  margin-bottom: 2px;
+  }
+  
+  .pagination {
+	margin: 0;
+  }
+  
+  .pagination li:hover{
+	  cursor: pointer;
+  }
+  
+  .header_wrap {
+	padding:30px 0;
+  }
+  .num_rows {
+	width: 20%;
+	float:left;
+  }
+  .tb_search{
+	width: 20%;
+	float:right;
+  }
+  .pagination-container {
+	width: 70%;
+	float:left;
+  }
+  
+  .rows_count {
+	width: 20%;
+	float:right;
+	text-align:right;
+	color: #999;
+  }
+		
+
+
+  .container-fluid{
+	max-width: 1500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }

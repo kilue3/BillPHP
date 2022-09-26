@@ -1,0 +1,41 @@
+/* CSS Document */
+/*
+.form-control-input-number {
+  size: 1px;
+}
+*/
+
+.BorderLine  {
+	border-bottom-width: 2px;
+	border-color:#1F1F1F;
+}
+
+/*
+#input_r {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+#input_r:hover,
+#input_r:focus {
+  background: red;
+  color: #111111;
+}
+
+#input_f {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+#input_f:hover,
+#input_f:focus {
+  background: red;
+  color: #111111;
+}
+*/
+
+.product {
+  border: none;
+}
